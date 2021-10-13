@@ -6,8 +6,17 @@
       <mj-class name="heading3" font-size="26px" font-family="Roboto" font-weight="black" color="#ffffff" />
       <mj-class name="paragraph" font-size="19px" font-family="Roboto" font-weight="normal" color="#005E73" />
     </mj-attributes>
-
     <mj-style>
+      .items {
+        padding: 10px 55px;
+      }
+
+      .item {
+        float: left;
+        width: 215px;
+      }
+    </mj-style>
+    <!-- <mj-style>
       @media (max-width:480px) {
         .desktop {
           display: none;
@@ -27,7 +36,7 @@
           display: none;
         }
       }
-    </mj-style>
+    </mj-style> -->
   </mj-head>
   <mj-body background-color="#ffffff">
     <mj-hero mode="fluid-height" background-width="601px" background-height="308px" background-url="https://i.ibb.co/Dk8DBfG/top-image.png" padding-bottom="23px" />
@@ -40,8 +49,9 @@
       </mj-column>
       <mj-column width="440px">
         <mj-text mj-class="heading2" align="center" padding-bottom="10px">
-          Guten Tag Vorname Nachname,<br><br>vielen Dank für das Eintragen Ihrer Zählerstände. Folgende Angaben haben wir für Sie in unserem System gespeichert:
+          Guten Tag Vorname Nachname,<br><br>vielen Dank für das Eintragen Ihrer Zählerstände. Folgende Angaben haben wir für Sie in unserem System gespeichert:
         </mj-text>
+
       </mj-column>
     </mj-section>
     <mj-section css-class="desktop" background-color="#069DBE" border-radius="25px">
@@ -62,7 +72,32 @@
         </mj-text>
       </mj-column>
       <mj-column width="100%">
-        <mj-table padding="0px 56px" align="left">
+        <mj-raw>
+          <div class="items">
+            <div class="item">
+              <mj-text>
+                <p style="font-family: Roboto; color:#ffffff; font-weight: 400; line-height: 16px; text-align: left; font-size: 12px"><b>Kaltwasserzähler Bad</b><br><br>Zählernummer: xxx<br>Zählerstand: xxx</p>
+              </mj-text>
+            </div>
+            <div class="item">
+              <mj-text>
+                <p style="font-family: Roboto; color:#ffffff; font-weight: 400; line-height: 16px; text-align: left; font-size: 12px"><b>Wärmezähler Flur</b><br><br>Zählernummer: xxx<br>Zählerstand: xxx</p>
+              </mj-text>
+            </div>
+            <div class="item">
+              <mj-text>
+                <p style="font-family: Roboto; color:#ffffff; font-weight: 400; line-height: 16px; text-align: left; font-size: 12px"><b>Warmwasserzähler Küche</b><br><br>Zählernummer: xxx<br>Zählerstand: xxx</p>
+              </mj-text>
+            </div>
+            <div class="item">
+              <mj-text>
+                <p style="font-family: Roboto; color:#ffffff; font-weight: 400; line-height: 16px; text-align: left; font-size: 12px"><b>Heizkostenverteiler Wohnzimmer</b><br><br>Zählernummer: xxx<br>Zählerstand: xxx</p>
+              </mj-text>
+            </div>
+          </div>
+        </mj-raw>
+
+        <!-- <mj-table padding="0px 56px" align="left">
           <tr>
             <th>
               <mj-text>
@@ -87,10 +122,10 @@
               </mj-text>
             </th>
           </tr>
-        </mj-table>
+        </mj-table> -->
       </mj-column>
     </mj-section>
-    <mj-section css-class="mobile" background-color="#069DBE" border-radius="25px">
+    <!-- <mj-section css-class="mobile" background-color="#069DBE" border-radius="25px">
 
       <mj-column width="100%">
         <mj-table padding="10px 13px" align="left">
@@ -150,7 +185,7 @@
 
         </mj-table>
       </mj-column>
-    </mj-section>
+    </mj-section> -->
     <mj-section>
       <mj-column width="480px" padding-top="40px">
         <mj-text mj-class="heading1" align="center" padding-bottom="18px">
@@ -163,14 +198,15 @@
       </mj-column>
       <mj-column width="382px" padding="0px">
         <mj-text align="center" padding-bottom="43px">
-          <p style="font-family: Roboto; color:#005E73; font-weight: 100; font-size: 16px; line-height:21px">Falls Sie Fragen zu Ihren Zählerständen haben, stehen wir Ihnen jederzeit und gerne zur Verfügung.<br></p>
-          <p style="font-family: Roboto; color:#005E73; font-weight: 100; font-size: 16px; line-height:21px">Herzliche Grüße<br>Ihr Messtex-Team</p>
+          <p style="font-family: Roboto; color:#005E73; font-weight: 100; font-size: 16px; line-height:21px">Falls Sie Fragen zu Ihren Zählerständen haben, stehen wir Ihnen jederzeit und gerne zur Verfügung.<br></p>
+          <p style="font-family: Roboto; color:#005E73; font-weight: 100; font-size: 16px; line-height:21px">Herzliche Grüße<br>Ihr Messtex-Team</p>
+
         </mj-text>
 
         <mj-image src="https://i.ibb.co/VQCsbTr/logo.png" width="140px" padding-bottom="40px" />
       </mj-column>
     </mj-section>
-    <mj-section full-width="full-width" background-color="#069DBE" padding="0px">
+    <mj-section background-color="#069DBE" background-size="601px" padding="0px">
       <mj-column width="100%" padding="0px">
         <mj-text align="center" padding="0px">
           <p style="font-family: Roboto; color:#ffffff; font-weight: 400; font-size: 12px; line-height:16px; padding: 20px 0px 0px 0px"><b>Service Center</b><br>Tel.: 0151/184 00 568 (Mo.– Fr. 09:00–18.00 Uhr)<br>E-Mail: info@messtex.de</p>

@@ -13,13 +13,13 @@
     <mj-section>
       <mj-column width="100%" padding="0px">
         <mj-text mj-class="heading1" align="center" padding-bottom="20px">
-          Ihre Anmeldung
+          Your registration
         </mj-text>
       </mj-column>
       <mj-column width="480px">
         <mj-text mj-class="heading2" align="center" padding-bottom="10px">
-          Guten Tag Vorname Nachname,<br><br>vielen Dank, dass Sie mit Messtex Ihre Daten digital abgelesen haben und damit gemeinsam mit uns den Ablesesektor modernisieren und
-          obendrein Gutes für die Umwelt tun!<br><br>Sie sind nun nur noch einen Klick entfernt von:
+          Dear Prename Surename,<br><br>Thank you for reading your data digitally with Messtex. Together with your help we are modernizing the meter-reading sector and, on top of that are doing something good for the environment!
+          <br><br>You are only one click away of:
         </mj-text>
       </mj-column>
     </mj-section>
@@ -28,13 +28,13 @@
         <mj-text mj-class="paragraph" padding="0px 0px 0px 0px">
           <ul>
             <li>
-              <p style=" padding: 15px 0px 15px 0px; line-height:21px">Den von Ihnen eingetragenen Daten<br>der Online-Ablesung</p>
+              <p style=" padding: 15px 0px 15px 0px; line-height:21px">The data you entered at the online meter reading </p>
             </li>
             <li>
-              <p style="padding: 0px 0px 15px 0px; line-height:21px">Der Erinnerung für die nächste Ablesung<br>per E-Mail statt per Post</p>
+              <p style="padding: 0px 0px 15px 0px; line-height:21px">The reminder for the next meter reading by e-mail instead<br>of mail</p>
             </li>
             <li>
-              <p style="padding: 0px 0px 15px 0px; line-height:21px">Neuerungen. Über diese informieren wir Sie<br>ab sofort schnell und einfach per E-Mail</p>
+              <p style="padding: 0px 0px 15px 0px; line-height:21px">News. From now on we will inform you quickly and simply<br>by e-mail</p>
             </li>
           </ul>
         </mj-text>
@@ -43,27 +43,27 @@
     <mj-section padding="25px 0px 0px 0px">
       <mj-column padding="0px 0px 0px 0px">
         <mj-button font-family="Roboto" font-weight="bold" font-size="14px" background-color="#069DBE" color="white" border-radius="21px" inner-padding="11px 30px">
-          Klick zur Bestätigung
+          Click to confirm
         </mj-button>
       </mj-column>
       <mj-column width="372px" padding="0px 0px 0px 0px">
         <mj-text align="center" padding="5px 0px 5px 0px">
-          <p style="font-family: Roboto; color:#005E73; font-weight: 100; font-size: 16px; line-height:21px">Die Abmeldung ist jederzeit wieder möglich.</p>
-          <p style="font-family: Roboto; color:#005E73; font-weight: 100; font-size: 16px; line-height:21px">Herzliche Grüße<br>Ihr Messtex-Team</p>
+          <p style="font-family: Roboto; color:#005E73; font-weight: 100; font-size: 16px; line-height:21px">Unsubscribing is possible at any time.</p>
+          <p style="font-family: Roboto; color:#005E73; font-weight: 100; font-size: 16px; line-height:21px">Best regards<br>Your Messtex Team</p>
         </mj-text>
 
         <mj-image src="https://i.ibb.co/VQCsbTr/logo.png" width="140px" padding-bottom="30px" />
       </mj-column>
     </mj-section>
 
-    <mj-section full-width="full-width" background-color="#069DBE" padding="0px 0px 0px 0px">
+    <mj-section background-color="#069DBE" background-size="601px" padding="0px 0px 0px 0px">
       <mj-column width="100%" padding="0px 0px 0px 0px">
         <mj-text align="center" padding="0px 0px 0px 0px">
           <p style="font-family: Roboto; color:#ffffff; font-weight: 400; font-size: 12px; padding: 20px 0px 0px 0px; line-height:16px"><b>Service Center</b><br>Tel.: 0151/184 00 568 (Mo.– Fr. 09:00–18.00 Uhr)<br>E-Mail: info@messtex.de</p>
         </mj-text>
         <mj-text align="center" padding="0px 0px 0px 0px">
           <p style="font-family: Roboto; color:#ffffff; font-weight: 400; font-size: 12px; line-height:16px"><b>Impressum</b><br>Mießen Jessica & Berger Jonas GbR<br>Schießstattstr. 14a<br>84072 Au i.d. Hallertau<br></p>
-          <p style="font-family: Roboto; color:#ffffff; font-weight: 400; font-size: 12px; line-height:16px; padding: 0px 0px 20px 0px">Vertreten durch<br>Jessica Mießen<br>Jonas Berger</p>
+          <p style="font-family: Roboto; color:#ffffff; font-weight: 400; font-size: 12px; line-height:16px; padding: 0px 0px 20px 0px">Represented by<br>Jessica Mießen<br>Jonas Berger</p>
         </mj-text>
       </mj-column>
 

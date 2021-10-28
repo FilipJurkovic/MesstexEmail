@@ -6,187 +6,74 @@
       <mj-class name="heading3" font-size="26px" font-family="Roboto" font-weight="black" color="#ffffff" />
       <mj-class name="paragraph" font-size="19px" font-family="Roboto" font-weight="normal" color="#005E73" />
     </mj-attributes>
-    <mj-style>
-      .items {
-        padding: 10px 55px;
-      }
-
-      .item {
-        float: left;
-        width: 215px;
-      }
-    </mj-style>
-    <!-- <mj-style>
-      @media (max-width:480px) {
-        .desktop {
-          display: none;
-        }
-
-        .mobile {
-          display: visible;
-        }
-      }
-
-      @media (min-width:481px) {
-        .desktop {
-          display: visible;
-        }
-
-        .mobile {
-          display: none;
-        }
-      }
-    </mj-style> -->
   </mj-head>
   <mj-body background-color="#ffffff">
     <mj-hero mode="fluid-height" background-width="601px" background-height="308px" background-url="https://i.ibb.co/Dk8DBfG/top-image.png" padding-bottom="23px" />
     </mj-hero>
-    <mj-section>
-      <mj-column width="100%" padding="0px 0px">
+    <mj-section background-size="100%" full-width="full-width">
+      <mj-column>
+
+      </mj-column>
+      <mj-column width="440px" padding="0px 0px">
         <mj-text mj-class="heading1" align="center" padding-bottom="27px">
           Reading proof
         </mj-text>
-      </mj-column>
-      <mj-column width="440px">
         <mj-text mj-class="heading2" align="center" padding-bottom="10px">
           Dear Prename Surename,<br><br>Thank you for entering your meter readings. In our system we have saved the following information for you:
         </mj-text>
+      </mj-column>
+
+      <mj-column>
 
       </mj-column>
     </mj-section>
     <mj-section css-class="desktop" background-color="#069DBE" border-radius="25px">
-
-      <mj-column width="100%">
-
-        <mj-text padding="0 25px">
-          <img padding-right="10px" padding-left="12.5px" padding-right="12.5px" align="left" width="15px" src="https://i.ibb.co/56X1sc8/home-icon.png" />
-          <p style="font-family: Roboto; color:#ffffff; font-weight: 800; font-size: 16px; line-height: 1px; padding: 5px 0px 10px 31px">Property</p>
-          <p style="font-family: Roboto; color:#ffffff; font-weight: 100; font-size: 12px; line-height: 1px; padding: 0px 0px 0px 31px">Hopfenweg 21, 85276 Pfaffenhofen a. d. Ilm.</p>
-        </mj-text>
-      </mj-column>
-      <mj-column width="100%" padding-bottom="10px" padding-top="10px">
-
-        <mj-text padding="0px 25px">
-          <img padding-left="12.5px" padding-right="12.5px" align="left" width="14px" src="https://i.ibb.co/tmvBt7Q/document-icon.png" />
-          <p style="font-family: Roboto; color:#ffffff; font-weight: 800; font-size: 16px; line-height: 1px; padding: 7px 0px 0px 31px">Your submitted meter readings</p>
-        </mj-text>
-      </mj-column>
-      <mj-column width="100%">
+      <mj-column width="601px">
         <mj-raw>
-          <div class="items">
-            <div class="item">
+          <div class="info1" style="padding-left: 25px; padding-bottom: 30px; padding-top:10px; margin: 0px">
+            <mj-text>
+              <img style="padding: 0px 10px 0px 0px" align="left" width="15px" src="https://i.ibb.co/56X1sc8/home-icon.png" />
+              <p style="font-family: Roboto; color:#ffffff; font-weight: 800; font-size: 16px;padding: 0px 0px 14px 31px; margin: 0px">Property</p>
+              <p style="font-family: Roboto; color:#ffffff; font-weight: 100; font-size: 12px; display: flex; padding: 0px 0px 0px 31px; margin: 0px">Hopfenweg 21, 85276 Pfaffenhofen a. d. Ilm.</p>
+            </mj-text>
+          </div>
+
+          <div class="info2" style="padding-left: 25px;">
+            <mj-text>
+              <img style="padding-right=10px;" align="left" width="14px" src="https://i.ibb.co/tmvBt7Q/document-icon.png" />
+              <p class="p1" style="padding-top: 20px;font-family: Roboto; color:#ffffff; font-weight: 800; font-size: 16px; padding: 0px 0px 0px 31px; margin: 0px">Your submitted meter readings</p>
+            </mj-text>
+          </div>
+          <div class="items" style="padding: 10px 55px; margin: 0px">
+            <div class="item" style="float: left; width: 215px;">
               <mj-text>
                 <p style="font-family: Roboto; color:#ffffff; font-weight: 400; line-height: 16px; text-align: left; font-size: 12px"><b>Cold water meter bathroom</b><br><br>Meter number: xxx<br>Meter reading: xxx</p>
               </mj-text>
             </div>
-            <div class="item">
+            <div class="item" style="float: left; width: 215px;">
               <mj-text>
                 <p style="font-family: Roboto; color:#ffffff; font-weight: 400; line-height: 16px; text-align: left; font-size: 12px"><b>Heat meter hallway</b><br><br>Meter number: xxx<br>Meter reading: xxx</p>
               </mj-text>
             </div>
-            <div class="item">
+            <div class="item" style="float: left; width: 215px;">
               <mj-text>
                 <p style="font-family: Roboto; color:#ffffff; font-weight: 400; line-height: 16px; text-align: left; font-size: 12px"><b>Hot water meter kitchen</b><br><br>Meter number: xxx<br>Meter reading: xxx</p>
               </mj-text>
             </div>
-            <div class="item">
+            <div class="item" style="float: left; width: 215px;">
               <mj-text>
                 <p style="font-family: Roboto; color:#ffffff; font-weight: 400; line-height: 16px; text-align: left; font-size: 12px"><b>Heat cost allocator living room</b><br><br>Meter number: xxx<br>Meter reading: xxx</p>
               </mj-text>
             </div>
           </div>
         </mj-raw>
-
-        <!-- <mj-table padding="0px 56px" align="left">
-          <tr>
-            <th>
-              <mj-text>
-                <p style="font-family: Roboto; color:#ffffff; font-weight: 400; line-height: 16px; text-align: left; font-size: 12px"><b>Kaltwasserzähler Bad</b><br><br>Zählernummer: xxx<br>Zählerstand: xxx</p>
-              </mj-text>
-            </th>
-            <th>
-              <mj-text>
-                <p style="font-family: Roboto; color:#ffffff; font-weight: 400; line-height: 16px; text-align: left; font-size: 12px"><b>Wärmezähler Flur</b><br><br>Zählernummer: xxx<br>Zählerstand: xxx</p>
-              </mj-text>
-            </th>
-          </tr>
-          <tr>
-            <th>
-              <mj-text>
-                <p style="font-family: Roboto; color:#ffffff; font-weight: 400; line-height: 16px; text-align: left; font-size: 12px"><b>Warmwasserzähler Küche</b><br><br>Zählernummer: xxx<br>Zählerstand: xxx</p>
-              </mj-text>
-            </th>
-            <th>
-              <mj-text>
-                <p style="font-family: Roboto; color:#ffffff; font-weight: 400; line-height: 16px; text-align: left; font-size: 12px"><b>Heizkostenverteiler Wohnzimmer</b><br><br>Zählernummer: xxx<br>Zählerstand: xxx</p>
-              </mj-text>
-            </th>
-          </tr>
-        </mj-table> -->
       </mj-column>
+
     </mj-section>
-    <!-- <mj-section css-class="mobile" background-color="#069DBE" border-radius="25px">
 
-      <mj-column width="100%">
-        <mj-table padding="10px 13px" align="left">
-          <tr>
-            <th>
-              <img src="https://i.ibb.co/56X1sc8/home-icon.png" alt="top-image" border="0" width="14px" align="left">
-            </th>
-          </tr>
-          <tr>
-            <th>
-              <mj-text text-align="left" padding="0px">
-                <p style="font-family: Roboto; color:#ffffff; font-weight: 800; text-align: left; font-size: 16px">Liegenschaft</p>
-                <p style="font-family: Roboto; color:#ffffff; font-weight: 100; text-align: left; font-size: 12px">Hopfenweg 21, 85276 Pfaffenhofen a. d. Ilm.</p>
-              </mj-text>
-            </th>
-          </tr>
-          <tr>
-            <th>
-              <img src="https://i.ibb.co/tmvBt7Q/document-icon.png" alt="top-image" border="0" width="14px" align="left">
-            </th>
-          </tr>
-          <tr>
-            <th>
-              <mj-text text-align="left" padding="0px">
-                <p style="font-family: Roboto; color:#ffffff; font-weight: 800; text-align: left; font-size: 16px">Ihre eingereichten Zählerstände:</p>
-              </mj-text>
-            </th>
-          </tr>
-          <tr>
-            <th>
-              <mj-text>
-                <p style="font-family: Roboto; color:#ffffff; font-weight: 400; line-height: 16px; text-align: left; font-size: 12px"><b>Kaltwasserzähler Bad</b><br><br>Zählernummer: xxx<br>Zählerstand: xxx</p>
-              </mj-text>
-            </th>
-          </tr>
-          <tr>
-            <th>
-              <mj-text>
-                <p style="font-family: Roboto; color:#ffffff; font-weight: 400; line-height: 16px; text-align: left; font-size: 12px"><b>Wärmezähler Flur</b><br><br>Zählernummer: xxx<br>Zählerstand: xxx</p>
-              </mj-text>
-            </th>
-          </tr>
-          <tr>
-            <th>
-              <mj-text>
-                <p style="font-family: Roboto; color:#ffffff; font-weight: 400; line-height: 16px; text-align: left; font-size: 12px"><b>Warmwasserzähler Küche</b><br><br>Zählernummer: xxx<br>Zählerstand: xxx</p>
-              </mj-text>
-            </th>
-          </tr>
-          <tr>
-            <th>
-              <mj-text>
-                <p style="font-family: Roboto; color:#ffffff; font-weight: 400; line-height: 16px; text-align: left; font-size: 12px"><b>Heizkostenverteiler Wohnzimmer</b><br><br>Zählernummer: xxx<br>Zählerstand: xxx</p>
-              </mj-text>
-            </th>
-          </tr>
-
-        </mj-table>
+    <mj-section background-size="100%" full-width="full-width">
+      <mj-column>
       </mj-column>
-    </mj-section> -->
-    <mj-section>
       <mj-column width="480px" padding-top="40px">
         <mj-text mj-class="heading1" align="center" padding-bottom="18px">
           Did you know??
@@ -195,9 +82,8 @@
         <mj-text mj-class="heading2" align="center" padding-bottom="40px">
           Per capita water consumption in Germany is 123 litres of water per day (according to BDEW). This puts us in the middle range in the european comparison just above the Britains, who consume an average of 150 litres a day.
         </mj-text>
-      </mj-column>
-      <mj-column width="382px" padding="0px">
-        <mj-text align="center" padding-bottom="43px">
+
+        <mj-text align="center" padding-bottom="43px" padding-left="49px" padding-right="49px">
           <p style="font-family: Roboto; color:#005E73; font-weight: 100; font-size: 16px; line-height:21px">If you have any questions about your meter readings, we are happy to help at any time.<br></p>
           <p style="font-family: Roboto; color:#005E73; font-weight: 100; font-size: 16px; line-height:21px">Best regards<br>Your Messtex Team</p>
 
@@ -205,18 +91,21 @@
 
         <mj-image src="https://i.ibb.co/VQCsbTr/logo.png" width="140px" padding-bottom="40px" />
       </mj-column>
+      <mj-column>
+      </mj-column>
     </mj-section>
     <mj-section background-color="#069DBE" background-size="601px" padding="0px">
       <mj-column width="100%" padding="0px">
         <mj-text align="center" padding="0px">
-          <p style="font-family: Roboto; color:#ffffff; font-weight: 400; font-size: 12px; line-height:16px; padding: 20px 0px 0px 0px"><b>Service Center</b><br>Tel.: 0151/184 00 568 (Mo.– Fr. 09:00–18.00 Uhr)<br>E-Mail: info@messtex.de</p>
+          <p style="font-family: Roboto; color:#ffffff; font-weight: 400; font-size: 12px; line-height:16px; padding: 20px 0px; margin: 0px"><b>Service Center</b><br>Tel.: 0151/184 00 568 (Mo.– Fr. 09:00–18.00 Uhr)<br>E-Mail: info@messtex.de</p>
         </mj-text>
         <mj-text align="center" padding="0px">
-          <p style="font-family: Roboto; color:#ffffff; font-weight: 400; font-size: 12px; line-height:16px"><b>Impressum</b><br>Mießen Jessica & Berger Jonas GbR<br>Schießstattstr. 14a<br>84072 Au i.d. Hallertau<br></p>
-          <p style="font-family: Roboto; color:#ffffff; font-weight: 400; font-size: 12px; line-height:16px; padding: 0px 0px 20px 0px">Represented by<br>Jessica Mießen<br>Jonas Berger</p>
+          <p style="font-family: Roboto; color:#ffffff; font-weight: 400; font-size: 12px; line-height:16px; margin: 0px"><b>Impressum</b><br>Mießen Jessica & Berger Jonas GbR<br>Schießstattstr. 14a<br>84072 Au i.d. Hallertau<br></p>
+        </mj-text>
+        <mj-text align="center" padding="0px">
+          <p style="font-family: Roboto; color:#ffffff; font-weight: 400; font-size: 12px; line-height:16px; padding: 20px 0px; margin: 0px">Represented by<br>Jessica Mießen<br>Jonas Berger</p>
         </mj-text>
       </mj-column>
-
     </mj-section>
   </mj-body>
 </mjml>

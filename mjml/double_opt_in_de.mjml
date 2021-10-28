@@ -1,0 +1,78 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-class name="heading1" font-size="30px" font-family="Roboto" font-weight="bold" color="#005E73" />
+      <mj-class name="heading2" font-size="20px" font-family="Roboto" font-weight="100" color="#005E73" line-height="25px" />
+      <mj-class name="heading3" font-size="26px" font-family="Roboto" font-weight="black" color="#ffffff" />
+      <mj-class name="paragraph" font-size="16px" font-family="Roboto" font-weight="bold" color="#ffffff" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#ffffff">
+    <mj-hero mode="fluid-height" background-width="601px" background-height="308px" background-url="https://i.ibb.co/Dk8DBfG/top-image.png" padding-bottom="23px" />
+    </mj-hero>
+    <mj-section background-size="100%" full-width="full-width">
+      <mj-column>
+      </mj-column>
+      <mj-column mj-class="column1" width="480px" padding="0px">
+        <mj-text mj-class="heading1" align="center" padding-bottom="20px">
+          Ihre Anmeldung
+        </mj-text>
+
+        <mj-text mj-class="heading2" align="center" padding-bottom="10px">
+          Guten Tag Vorname Nachname,<br><br>vielen Dank, dass Sie mit Messtex Ihre Daten digital abgelesen haben und damit gemeinsam mit uns den Ablesesektor modernisieren und
+          obendrein Gutes für die Umwelt tun!<br><br>Sie sind nun nur noch einen Klick entfernt von:
+        </mj-text>
+      </mj-column>
+      <mj-column>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#069DBE" border-radius="25px" padding="0px 15px 0px 15px">
+      <mj-column padding="0px 0px 0px 0px">
+        <mj-text mj-class="paragraph" padding="0px 0px 0px 0px">
+          <ul style="margin:0px">
+            <li>
+              <p style="padding: 30px 15px; margin:0px">Den von Ihnen eingetragenen Daten<br>der Online-Ablesung</p>
+            </li>
+            <li>
+              <p style="padding: 0px 15px; margin:0px">Der Erinnerung für die nächste Ablesung<br>per E-Mail statt per Post</p>
+            </li>
+            <li>
+              <p style="padding: 30px 15px; margin:0px">Neuerungen. Über diese informieren wir Sie<br>ab sofort schnell und einfach per E-Mail</p>
+            </li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="30px 0px 0px 0px" background-size="100%" full-width="full-width">
+    <mj-column>
+    </mj-column>
+      <mj-column mj-class="column2" width="100%" padding="0px 0px 0px 0px">
+        <mj-button width="194px" font-family="Roboto" font-weight="bold" font-size="14px" background-color="#069DBE" color="white" border-radius="21px" inner-padding="11px 30px">
+          Klick zur Bestätigung
+        </mj-button>
+        <mj-text align="center" padding="0px">
+          <p style="font-family: Roboto; color:#005E73; font-weight: 100; font-size: 16px; padding: 30px 0px; margin:0px">Die Abmeldung ist jederzeit wieder möglich.</p>
+          <p style="font-family: Roboto; color:#005E73; font-weight: 100; font-size: 16px;margin:0px">Herzliche Grüße<br>Ihr Messtex-Team</p>
+        </mj-text>
+
+        <mj-image src="https://i.ibb.co/VQCsbTr/logo.png" width="140px" padding="30px 0px" />
+      </mj-column>
+      <mj-column>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#069DBE" background-size="601px" padding="0px">
+      <mj-column width="100%" padding="0px">
+        <mj-text align="center" padding="0px">
+          <p style="font-family: Roboto; color:#ffffff; font-weight: 400; font-size: 12px; line-height:16px; padding: 20px 0px; margin: 0px"><b>Service Center</b><br>Tel.: 0151/184 00 568 (Mo.– Fr. 09:00–18.00 Uhr)<br>E-Mail: info@messtex.de</p>
+        </mj-text>
+        <mj-text align="center" padding="0px">
+          <p style="font-family: Roboto; color:#ffffff; font-weight: 400; font-size: 12px; line-height:16px; margin: 0px"><b>Impressum</b><br>Mießen Jessica & Berger Jonas GbR<br>Schießstattstr. 14a<br>84072 Au i.d. Hallertau<br></p>
+        </mj-text>
+        <mj-text align="center" padding="0px">
+          <p style="font-family: Roboto; color:#ffffff; font-weight: 400; font-size: 12px; line-height:16px; padding: 20px 0px; margin: 0px">Vertreten durch<br>Jessica Mießen<br>Jonas Berger</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
